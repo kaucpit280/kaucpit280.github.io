@@ -25,7 +25,15 @@ html
               a(href='#calendar') Calendar
             li
               a(href='#syllabus') Syllabus
+        
     script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
     script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js' integrity='sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa' crossorigin='anonymous')
     .container
       != yield
+    footer.footer
+      .container
+        p.text-muted.text-center Prof. Khalid Alharbi, CPIT 280, King Abdulaziz University, Spring 2017
+        div.text-center
+          a(href='https://creativecommons.org/licenses/by/4.0/')
+            img(src='https://licensebuttons.net/l/by/4.0/88x31.png' alt='Creative Commons Attribution 4.0' width='88' height='31')
+        br
